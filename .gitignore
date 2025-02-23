@@ -1,0 +1,33 @@
+# Python 虛擬環境
+venv/
+.env
+
+# Bytecode 編譯檔案
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / 編輯器設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 測試報告
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+junit.xml
+
+# Pip 安裝的相依檔案
+pip-log.txt
+pip-delete-this-directory.txt
+
+# GitHub Actions 自動產生的 workflows 目錄 (如果不想忽略，請刪除此行)
+.github/workflows/
+
+# 記錄檔案
+*.log
+logs/
