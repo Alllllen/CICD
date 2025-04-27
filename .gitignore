@@ -25,5 +25,6 @@ junit.xml
 pip-log.txt
 pip-delete-this-directory.txt
 
-# GitHub Actions 自動產生的 workflows 目錄 (如果不想忽略，請刪除此行)
-.github/workflows/
+# 記錄檔案
+*.log
+logs/
